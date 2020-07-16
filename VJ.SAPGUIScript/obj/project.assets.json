@@ -37,7 +37,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Users\\Vijayan\\Documents\\Visual Studio 2017\\Projects\\NugetPackages": {},
-        "F:\\dotnet\\VJ.SAPGUIScript\\VJ.SAPGUIScript.Activities.Design\\bin\\Release\\net461\\publish": {},
+        "F:\\dotnet\\VJ.SAPGUIScript\\VJ.SAPGUIScript.Activities.Design\\bin\\Release\\net461\\publishd": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://gallery.uipath.com/api/v2": {}
       },

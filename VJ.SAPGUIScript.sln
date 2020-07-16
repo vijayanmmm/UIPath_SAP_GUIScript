@@ -11,18 +11,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VJ.SAPGUIScript.Activities"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{41A54C3D-2460-4C7A-9E41-A89EE1E18C88}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VJ.SAPGUIScript.Activities.Design", "VJ.SAPGUIScript.Activities.Design\VJ.SAPGUIScript.Activities.Design.csproj", "{1B9B805E-4B75-48A6-870C-1D38C9FEBFF2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{1b9b805e-4b75-48a6-870c-1d38c9febff2}*SharedItemsImports = 5
-		..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
-		..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{8d1361f3-b0aa-4f5f-8ecd-624705e9fff5}*SharedItemsImports = 5
-		..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,9 +46,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9F8679E7-CB83-4ED7-84E7-18F1015B026B} = {F9873C0A-B55A-498E-933F-833307D34AD9}
 		{8D1361F3-B0AA-4F5F-8ECD-624705E9FFF5} = {F9873C0A-B55A-498E-933F-833307D34AD9}
+		{1B9B805E-4B75-48A6-870C-1D38C9FEBFF2} = {F9873C0A-B55A-498E-933F-833307D34AD9}
 		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {F9873C0A-B55A-498E-933F-833307D34AD9}
 		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {F9873C0A-B55A-498E-933F-833307D34AD9}
-		{1B9B805E-4B75-48A6-870C-1D38C9FEBFF2} = {F9873C0A-B55A-498E-933F-833307D34AD9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {50957A69-1563-4300-BA9A-E6A6B8D6D587}
