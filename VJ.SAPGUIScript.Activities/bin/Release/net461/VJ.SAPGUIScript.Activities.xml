@@ -1,0 +1,1219 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VJ.SAPGUIScript.Activities</name>
+    </assembly>
+    <members>
+        <member name="P:VJ.SAPGUIScript.Activities.Button_Click.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.CheckBox_ClickByID.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.ComboBox_SelectItem_Using_ItemTextcontains.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.ComboBox_SelectItem_Using_Key.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.ContextMenuSelectItem.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.GetLabelText.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Get_StatusBar_Text.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Get_TextBox_Value.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Get_TextEditBox_Value.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Grid_GetCellValue.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Grid_SelectCell_AndDoubleClick.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Grid_SelectRow_AndDoubleClick.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Login.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.LoginSSO.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Menu_SelectionByID.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.RadioBox_Click.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.TableRow_Select.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Table_GetCellValue.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.TCode_Input.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.TextBox_Input.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.TreeItem_DoubleClick.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.TreeView_Select.ContinueOnError">
+            <summary>
+            If set, continue executing the remaining activities even if the current activity has failed.
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Authentication_Category">
+            <summary>
+              Looks up a localized string similar to Authentication.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Button_Click_ControlID_Description">
+            <summary>
+              Looks up a localized string similar to ID of the button, for ex:&quot;wnd[1]/tbar[0]/btn[0]&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Button_Click_ControlID_DisplayName">
+            <summary>
+              Looks up a localized string similar to ControlID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Button_Click_Description">
+            <summary>
+              Looks up a localized string similar to Click a button using ID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Button_Click_DisplayName">
+            <summary>
+              Looks up a localized string similar to Button_Click.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.CheckBox_ClickByID_ControlID_Description">
+            <summary>
+              Looks up a localized string similar to ID of checkbox. ex:wnd[0]/usr/boxpersonas_40/chkpersonas_46.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.CheckBox_ClickByID_ControlID_DisplayName">
+            <summary>
+              Looks up a localized string similar to ControlID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.CheckBox_ClickByID_Description">
+            <summary>
+              Looks up a localized string similar to Click the check box based on value true / false.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.CheckBox_ClickByID_DisplayName">
+            <summary>
+              Looks up a localized string similar to CheckBox_ClickByID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.CheckBox_ClickByID_Tick_Description">
+            <summary>
+              Looks up a localized string similar to If it needs to be ticked then True, If not False.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.CheckBox_ClickByID_Tick_DisplayName">
+            <summary>
+              Looks up a localized string similar to Tick.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_ItemTextcontains_CombMainWindowNameoBoxID_Description">
+            <summary>
+              Looks up a localized string similar to For Ex: &quot;Accounting Report&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_ItemTextcontains_CombMainWindowNameoBoxID_DisplayName">
+            <summary>
+              Looks up a localized string similar to CombMainWindowNameoBoxID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_ItemTextcontains_ComboBox_AutomationID_Description">
+            <summary>
+              Looks up a localized string similar to For Example: &quot;115552&quot;, Use Spy tool to find/UIpath UIExplorer.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_ItemTextcontains_ComboBox_AutomationID_DisplayName">
+            <summary>
+              Looks up a localized string similar to ComboBox_AutomationID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_ItemTextcontains_ComboBoxID_Description">
+            <summary>
+              Looks up a localized string similar to For Ex:&quot;wnd[0]/usr/subSUB1:SAPLMEGUI:6000/cmbDYN_6000-LIST&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_ItemTextcontains_ComboBoxID_DisplayName">
+            <summary>
+              Looks up a localized string similar to ComboBoxID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_ItemTextcontains_Description">
+            <summary>
+              Looks up a localized string similar to Combo Box Select item using Item Text contains.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_ItemTextcontains_DisplayName">
+            <summary>
+              Looks up a localized string similar to ComboBox_SelectItem_Using_ItemTextcontains.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_ItemTextcontains_ItemText_Description">
+            <summary>
+              Looks up a localized string similar to For Ex: &quot;Email&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_ItemTextcontains_ItemText_DisplayName">
+            <summary>
+              Looks up a localized string similar to ItemText.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_ItemTextcontains_SelectItemText_Description">
+            <summary>
+              Looks up a localized string similar to ComboBox item text, which needs to be selected, For Ex: &quot;Email&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_ItemTextcontains_SelectItemText_DisplayName">
+            <summary>
+              Looks up a localized string similar to SelectItemText.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_Key_ComboBoxID_Description">
+            <summary>
+              Looks up a localized string similar to For Ex: &quot;wnd[0]/usr/subSUB1:SAPLMEGUI:6000/cmbDYN_6000-LIST&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_Key_ComboBoxID_DisplayName">
+            <summary>
+              Looks up a localized string similar to ComboBoxID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_Key_Description">
+            <summary>
+              Looks up a localized string similar to Combo box select item using Key.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_Key_DisplayName">
+            <summary>
+              Looks up a localized string similar to ComboBox_SelectItem_Using_Key.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_Key_ItemKey_Description">
+            <summary>
+              Looks up a localized string similar to For Ex: &quot;   3&quot;, Make sure included blank as well if exists.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ComboBox_SelectItem_Using_Key_ItemKey_DisplayName">
+            <summary>
+              Looks up a localized string similar to ItemKey.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Common_Category">
+            <summary>
+              Looks up a localized string similar to Common.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ContextMenuSelectItem_ContextMenuItem_Description">
+            <summary>
+              Looks up a localized string similar to For Ex: &quot;Spreadsheet...&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ContextMenuSelectItem_ContextMenuItem_DisplayName">
+            <summary>
+              Looks up a localized string similar to ContextMenuItem.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ContextMenuSelectItem_Description">
+            <summary>
+              Looks up a localized string similar to Right Click the grid and choose the specified context menu item.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ContextMenuSelectItem_DisplayName">
+            <summary>
+              Looks up a localized string similar to ContextMenuSelectItem.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ContextMenuSelectItem_GridID_Description">
+            <summary>
+              Looks up a localized string similar to For Ex:&quot;wnd[0]/usr/cntlGRID1/shellcont/shell&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ContextMenuSelectItem_GridID_DisplayName">
+            <summary>
+              Looks up a localized string similar to GridID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ContinueOnError_Description">
+            <summary>
+              Looks up a localized string similar to If set, continue executing the remaining activities even if the current activity has failed..
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ContinueOnError_DisplayName">
+            <summary>
+              Looks up a localized string similar to ContinueOnError.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Do">
+            <summary>
+              Looks up a localized string similar to Do.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_StatusBar_Text_Description">
+            <summary>
+              Looks up a localized string similar to Get Status bar text in the sap window bottom.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_StatusBar_Text_DisplayName">
+            <summary>
+              Looks up a localized string similar to Get_StatusBar_Text.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_StatusBar_Text_MessageType_Description">
+            <summary>
+              Looks up a localized string similar to Type of the Status Bar Text (E/S/I....).
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_StatusBar_Text_MessageType_DisplayName">
+            <summary>
+              Looks up a localized string similar to MessageType.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_StatusBar_Text_StatusText_Description">
+            <summary>
+              Looks up a localized string similar to Text of the status bar..
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_StatusBar_Text_StatusText_DisplayName">
+            <summary>
+              Looks up a localized string similar to StatusText.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_StatusBar_Text_StatusTextValue_Description">
+            <summary>
+              Looks up a localized string similar to Status Text.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_StatusBar_Text_StatusTextValue_DisplayName">
+            <summary>
+              Looks up a localized string similar to StatusTextValue.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_TextBox_Value_ControlID_Description">
+            <summary>
+              Looks up a localized string similar to For ex:&quot;wnd[0]/usr/ctxtS_MATNR-LOW&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_TextBox_Value_ControlID_DisplayName">
+            <summary>
+              Looks up a localized string similar to ControlID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_TextBox_Value_Description">
+            <summary>
+              Looks up a localized string similar to Get Textbox value.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_TextBox_Value_DisplayName">
+            <summary>
+              Looks up a localized string similar to Get_TextBox_Value.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_TextBox_Value_TextboxID_Description">
+            <summary>
+              Looks up a localized string similar to For Example:wnd[0].grdviewSA.curr[0].txtYEAR.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_TextBox_Value_TextboxID_DisplayName">
+            <summary>
+              Looks up a localized string similar to TextboxID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_TextBox_Value_TextBoxValue_Description">
+            <summary>
+              Looks up a localized string similar to Value of the Textbox.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_TextBox_Value_TextBoxValue_DisplayName">
+            <summary>
+              Looks up a localized string similar to TextBoxValue.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_TextEditBox_Value_ControlID_Description">
+            <summary>
+              Looks up a localized string similar to ID of the TextBox, For Ex. &quot;wnd[0]/txtINGKIL&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_TextEditBox_Value_ControlID_DisplayName">
+            <summary>
+              Looks up a localized string similar to ControlID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_TextEditBox_Value_Description">
+            <summary>
+              Looks up a localized string similar to Get Text Edit box value, its similar as TextBox/InputBox,, Mostly used textbox within table/grid..
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_TextEditBox_Value_DisplayName">
+            <summary>
+              Looks up a localized string similar to Get_TextEditBox_Value.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_TextEditBox_Value_Text_Description">
+            <summary>
+              Looks up a localized string similar to Text of the TextEditBox/InputBox.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Get_TextEditBox_Value_Text_DisplayName">
+            <summary>
+              Looks up a localized string similar to Text.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.GetLabelText_ControlID_Description">
+            <summary>
+              Looks up a localized string similar to ID of the Label For ex: &quot;wnd[0]\LBLTSKK&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.GetLabelText_ControlID_DisplayName">
+            <summary>
+              Looks up a localized string similar to ControlID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.GetLabelText_Description">
+            <summary>
+              Looks up a localized string similar to Get Text of the Label.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.GetLabelText_DisplayName">
+            <summary>
+              Looks up a localized string similar to GetLabelText.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.GetLabelText_LabelText_Description">
+            <summary>
+              Looks up a localized string similar to Output Label Text.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.GetLabelText_LabelText_DisplayName">
+            <summary>
+              Looks up a localized string similar to LabelText.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.GetStatusText_Description">
+            <summary>
+              Looks up a localized string similar to Get SAP Status Text.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.GetStatusText_DisplayName">
+            <summary>
+              Looks up a localized string similar to GetStatusText.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.GetStatusText_StatusText_Description">
+            <summary>
+              Looks up a localized string similar to Text of SAP Status bar .
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.GetStatusText_StatusText_DisplayName">
+            <summary>
+              Looks up a localized string similar to StatusText.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_GetCellValue_CellValue_Description">
+            <summary>
+              Looks up a localized string similar to value of the specified cell.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_GetCellValue_CellValue_DisplayName">
+            <summary>
+              Looks up a localized string similar to CellValue.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_GetCellValue_ColumnID_Description">
+            <summary>
+              Looks up a localized string similar to For ex:KLKJK.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_GetCellValue_ColumnID_DisplayName">
+            <summary>
+              Looks up a localized string similar to ColumnID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_GetCellValue_Description">
+            <summary>
+              Looks up a localized string similar to get grid cell value.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_GetCellValue_DisplayName">
+            <summary>
+              Looks up a localized string similar to Grid_GetCellValue.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_GetCellValue_GridID_Description">
+            <summary>
+              Looks up a localized string similar to For ex:&quot;wnd[0]/usr/cntlGRID1/shellcont/shell&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_GetCellValue_GridID_DisplayName">
+            <summary>
+              Looks up a localized string similar to GridID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_GetCellValue_RowIndex_Description">
+            <summary>
+              Looks up a localized string similar to For ex:5, Note: Rowindex starts from 0.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_GetCellValue_RowIndex_DisplayName">
+            <summary>
+              Looks up a localized string similar to RowIndex.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_SelectCell_AndDoubleClick_ColumnID_Description">
+            <summary>
+              Looks up a localized string similar to For Ex:&quot;EBELN&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_SelectCell_AndDoubleClick_ColumnID_DisplayName">
+            <summary>
+              Looks up a localized string similar to ColumnID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_SelectCell_AndDoubleClick_Description">
+            <summary>
+              Looks up a localized string similar to Double click a cell in a specified row of a Grid..
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_SelectCell_AndDoubleClick_DisplayName">
+            <summary>
+              Looks up a localized string similar to Grid_SelectCell_AndDoubleClick.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_SelectCell_AndDoubleClick_GridID_Description">
+            <summary>
+              Looks up a localized string similar to For Ex:&quot;wnd[0]/usr/cntlGRID1/shellcont/shell&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_SelectCell_AndDoubleClick_GridID_DisplayName">
+            <summary>
+              Looks up a localized string similar to GridID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_SelectCell_AndDoubleClick_RowIndex_Description">
+            <summary>
+              Looks up a localized string similar to For Ex:&quot;6&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_SelectCell_AndDoubleClick_RowIndex_DisplayName">
+            <summary>
+              Looks up a localized string similar to RowIndex.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_SelectRow_AndDoubleClick_Description">
+            <summary>
+              Looks up a localized string similar to Double click a row in a Grid.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_SelectRow_AndDoubleClick_DisplayName">
+            <summary>
+              Looks up a localized string similar to Grid_SelectRow_AndDoubleClick.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_SelectRow_AndDoubleClick_GridID_Description">
+            <summary>
+              Looks up a localized string similar to For Ex:&quot;wnd[0]/usr/cntlGRID1/shellcont/shell&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_SelectRow_AndDoubleClick_GridID_DisplayName">
+            <summary>
+              Looks up a localized string similar to GridID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_SelectRow_AndDoubleClick_RowIndex_Description">
+            <summary>
+              Looks up a localized string similar to For Ex:&quot;6&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Grid_SelectRow_AndDoubleClick_RowIndex_DisplayName">
+            <summary>
+              Looks up a localized string similar to RowIndex.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Input_Category">
+            <summary>
+              Looks up a localized string similar to Input.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Label_GetText_Description">
+            <summary>
+              Looks up a localized string similar to Get text of a label.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Label_GetText_DialogBox1_Description">
+            <summary>
+              Looks up a localized string similar to For Ex:&quot;Choose an Account&quot;, if no dialogbox then &quot;&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Label_GetText_DialogBox1_DisplayName">
+            <summary>
+              Looks up a localized string similar to DialogBox1.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Label_GetText_DialogBox2_Description">
+            <summary>
+              Looks up a localized string similar to For Ex:&quot;Choose an Account&quot;, if no dialogbox then &quot;&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Label_GetText_DialogBox2_DisplayName">
+            <summary>
+              Looks up a localized string similar to DialogBox2.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Label_GetText_DisplayName">
+            <summary>
+              Looks up a localized string similar to Label_GetText.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Label_GetText_LabelID_Description">
+            <summary>
+              Looks up a localized string similar to For Ex:&quot;wnd[0]/usr/lbl[64,3]&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Label_GetText_LabelID_DisplayName">
+            <summary>
+              Looks up a localized string similar to LabelID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Label_GetText_MainWindowName_Description">
+            <summary>
+              Looks up a localized string similar to For Ex: &quot;Accouting Report&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Label_GetText_MainWindowName_DisplayName">
+            <summary>
+              Looks up a localized string similar to MainWindowName.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Login_Client_Description">
+            <summary>
+              Looks up a localized string similar to For example &quot;100&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Login_Client_DisplayName">
+            <summary>
+              Looks up a localized string similar to Client.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Login_Description">
+            <summary>
+              Looks up a localized string similar to Login into SAP.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Login_DisplayName">
+            <summary>
+              Looks up a localized string similar to Login.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Login_Language_Description">
+            <summary>
+              Looks up a localized string similar to For Example: &quot;EN&quot; for english, &quot;ZH&quot; for chines and etc...,.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Login_Language_DisplayName">
+            <summary>
+              Looks up a localized string similar to Language.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Login_Password_Description">
+            <summary>
+              Looks up a localized string similar to .
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Login_Password_DisplayName">
+            <summary>
+              Looks up a localized string similar to Password.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Login_ServerName_Description">
+            <summary>
+              Looks up a localized string similar to For example: &quot;NRP&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Login_ServerName_DisplayName">
+            <summary>
+              Looks up a localized string similar to Server.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Login_Username_Description">
+            <summary>
+              Looks up a localized string similar to .
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Login_Username_DisplayName">
+            <summary>
+              Looks up a localized string similar to Username.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.LoginSSO_Description">
+            <summary>
+              Looks up a localized string similar to Login using SSO Mode.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.LoginSSO_DisplayName">
+            <summary>
+              Looks up a localized string similar to LoginSSO.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.LoginSSO_ServerName_Description">
+            <summary>
+              Looks up a localized string similar to Name of the server, usually it is listed in the SAP Login Window for example: PH7 PRD.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.LoginSSO_ServerName_DisplayName">
+            <summary>
+              Looks up a localized string similar to ServerName.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Menu_SelectionByID_Description">
+            <summary>
+              Looks up a localized string similar to Select the Main Menu based on ID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Menu_SelectionByID_DisplayName">
+            <summary>
+              Looks up a localized string similar to Menu_SelectionByID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Menu_SelectionByID_MenuID_Description">
+            <summary>
+              Looks up a localized string similar to For Example:&quot;wnd[0]/mbar/menu[4]/menu[8]&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Menu_SelectionByID_MenuID_DisplayName">
+            <summary>
+              Looks up a localized string similar to MenuID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Options_Category">
+            <summary>
+              Looks up a localized string similar to Options.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Output_Category">
+            <summary>
+              Looks up a localized string similar to Output.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.RadioBox_Click_ControlID_Description">
+            <summary>
+              Looks up a localized string similar to ID of the RadioBox, for ex:&quot;wnd[1]/usr/subSUBSCREEN_STEPLOOP:SAPLSPO5:0150/sub:SAPLSPO5:0150/radSPOPLI-SELFLAG[1,0]&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.RadioBox_Click_ControlID_DisplayName">
+            <summary>
+              Looks up a localized string similar to ControlID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.RadioBox_Click_Description">
+            <summary>
+              Looks up a localized string similar to Click a radio box using ID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.RadioBox_Click_DisplayName">
+            <summary>
+              Looks up a localized string similar to RadioBox_Click.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Table_GetCellValue_CellValue_Description">
+            <summary>
+              Looks up a localized string similar to Text/Value of the Table Cell..
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Table_GetCellValue_CellValue_DisplayName">
+            <summary>
+              Looks up a localized string similar to CellValue.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Table_GetCellValue_ColumnIndex_Description">
+            <summary>
+              Looks up a localized string similar to For ex:5, Note: Index should start from 0.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Table_GetCellValue_ColumnIndex_DisplayName">
+            <summary>
+              Looks up a localized string similar to ColumnIndex.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Table_GetCellValue_Description">
+            <summary>
+              Looks up a localized string similar to Get table cell value.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Table_GetCellValue_DisplayName">
+            <summary>
+              Looks up a localized string similar to Table_GetCellValue.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Table_GetCellValue_RowIndex_Description">
+            <summary>
+              Looks up a localized string similar to For ex:5, Note: Index should start from 0.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Table_GetCellValue_RowIndex_DisplayName">
+            <summary>
+              Looks up a localized string similar to RowIndex.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Table_GetCellValue_TableID_Description">
+            <summary>
+              Looks up a localized string similar to For ex:&quot;wnd[0]/usr/tblSAPL&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Table_GetCellValue_TableID_DisplayName">
+            <summary>
+              Looks up a localized string similar to TableID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TableRow_Select_Description">
+            <summary>
+              Looks up a localized string similar to Select a row in a table.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TableRow_Select_DisplayName">
+            <summary>
+              Looks up a localized string similar to TableRow_Select.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TableRow_Select_RowNumber_Description">
+            <summary>
+              Looks up a localized string similar to For Example: &quot;6&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TableRow_Select_RowNumber_DisplayName">
+            <summary>
+              Looks up a localized string similar to RowNumber.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TableRow_Select_TableID_Description">
+            <summary>
+              Looks up a localized string similar to For Ex: &quot;wnd[1]/usr/tblSAPLAQ_INT_FUNCTIONSTCH_FUNCAREAS&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TableRow_Select_TableID_DisplayName">
+            <summary>
+              Looks up a localized string similar to TableID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TCode_Input_Description">
+            <summary>
+              Looks up a localized string similar to Input TCode into SAP and start Transaction.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TCode_Input_DisplayName">
+            <summary>
+              Looks up a localized string similar to TCode_Input.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TCode_Input_TCODE_Description">
+            <summary>
+              Looks up a localized string similar to For example: &quot;ZVR019&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TCode_Input_TCODE_DisplayName">
+            <summary>
+              Looks up a localized string similar to TCODE.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TextBox_Input_ControlID_Description">
+            <summary>
+              Looks up a localized string similar to For example: &quot;wnd[1]/usr/ctxtDY_FILENAME&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TextBox_Input_ControlID_DisplayName">
+            <summary>
+              Looks up a localized string similar to ControlID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TextBox_Input_Description">
+            <summary>
+              Looks up a localized string similar to input into Textbox.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TextBox_Input_DisplayName">
+            <summary>
+              Looks up a localized string similar to TextBox_Input.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TextBox_Input_Text_Description">
+            <summary>
+              Looks up a localized string similar to Text to be Input, For example &quot;SampleText&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TextBox_Input_Text_DisplayName">
+            <summary>
+              Looks up a localized string similar to Text.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Timeout_Description">
+            <summary>
+              Looks up a localized string similar to Specifies the amount of time (in milliseconds) to wait for the activity to run before an error is thrown. The default value is 60000 (1 minute)..
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Timeout_DisplayName">
+            <summary>
+              Looks up a localized string similar to Timeout (milliseconds).
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.Timeout_Error">
+            <summary>
+              Looks up a localized string similar to The activity timed out and was canceled..
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TreeItem_DoubleClick_ControlID_Description">
+            <summary>
+              Looks up a localized string similar to Tree control ID, for example:.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TreeItem_DoubleClick_ControlID_DisplayName">
+            <summary>
+              Looks up a localized string similar to ControlID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TreeItem_DoubleClick_Description">
+            <summary>
+              Looks up a localized string similar to Double click the Tree item/Node.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TreeItem_DoubleClick_DisplayName">
+            <summary>
+              Looks up a localized string similar to TreeItem_DoubleClick.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TreeItem_DoubleClick_ItemKey_Description">
+            <summary>
+              Looks up a localized string similar to Key of the Tree Item/Node.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TreeItem_DoubleClick_ItemKey_DisplayName">
+            <summary>
+              Looks up a localized string similar to ItemKey.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TreeView_Select_Description">
+            <summary>
+              Looks up a localized string similar to Select an item in a Tree.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TreeView_Select_DisplayName">
+            <summary>
+              Looks up a localized string similar to TreeView_Select.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TreeView_Select_TreeID_Description">
+            <summary>
+              Looks up a localized string similar to For Ex: &quot;wnd[0]/shellcont/shell/shellcont[0]/shell&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TreeView_Select_TreeID_DisplayName">
+            <summary>
+              Looks up a localized string similar to TreeID.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TreeView_Select_TreeItemKey_Description">
+            <summary>
+              Looks up a localized string similar to For Ex: &quot;000006&quot;.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.TreeView_Select_TreeItemKey_DisplayName">
+            <summary>
+              Looks up a localized string similar to TreeItemKey.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ValidationExclusiveProperties_Error">
+            <summary>
+              Looks up a localized string similar to Please provide a value either for {0} or {1}, but not both..
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ValidationOverloadGroup_Error">
+            <summary>
+              Looks up a localized string similar to Please provide values for both {0} and {1}..
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ValidationScope_Error">
+            <summary>
+              Looks up a localized string similar to Cannot be used outside of a {0}..
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Properties.Resources.ValidationValue_Error">
+            <summary>
+              Looks up a localized string similar to Please provide a value for {0}..
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.SAPAuto.openSAP(System.String)">
+            <summary>
+            This function opens the new SAP session
+            </summary>
+            <param name="env">Provide the available environment name, for example 'NRP'</param>
+            <returns></returns>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.SAPAuto.login(System.String,System.String,System.String,System.Security.SecureString,System.String)">
+            <summary>
+            This function will login into the SAP with provided credentials(same as manual login)
+            </summary>
+            <param name="SapSession"></param>
+            <param name="myclient"></param>
+            <param name="mylogin"></param>  
+            <param name="mypass"></param>
+            <param name="mylang"></param>
+        </member>
+        <member name="T:UiPath.Shared.Activities.Contracts.IBaseChildActivity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.IBaseChildActivity.GetFromContext``1(System.Activities.ActivityContext,System.String)">
+            <summary>
+            Gets the services container. This stores the authenticated clients
+            </summary>
+            <param name="context">The context.</param>
+            <param name="propertyName"></param>
+            
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.IBaseChildActivity.GetFromUserState``1(System.Activities.AsyncCodeActivityContext)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.IBaseChildActivity.SetToUserState``1(System.Activities.AsyncCodeActivityContext,``0)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="context"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.BaseChildActivity.GetFromUserState``1(System.Activities.AsyncCodeActivityContext)">
+            <summary>
+            Get object from context.UserState object. 
+            According to documentation, this is the place to store object for multithreaded access
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.BaseChildActivity.SetToUserState``1(System.Activities.AsyncCodeActivityContext,``0)">
+            <summary>
+            Set context.UserState to desired value
+            </summary>
+            <typeparam name="U"></typeparam>
+            <param name="context"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Contracts.BaseChildActivity.GetFromContext``1(System.Activities.ActivityContext,System.String)">
+            <summary>
+            Get object from Context properties
+            </summary>
+            <param name="context"></param>
+            <param name="propertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UiPath.Shared.Activities.IObjectContainer">
+            <summary>
+            A simple container for objects meant to be shared accross the application space.
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Add``1(``0)">
+            <summary>
+            Stores a reference to an object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="objectToAdd"></param>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Get``1">
+            <summary>
+            Gets the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Where(System.Func{System.Object,System.Boolean})">
+            <summary>
+            
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Remove``1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Contains``1">
+            <summary>
+            Determines whether this instance contains the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns>
+              <c>true</c> if this instance contains object; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.IObjectContainer.Clear">
+            <summary>
+            Clears this instance.
+            </summary>
+        </member>
+        <member name="T:UiPath.Shared.Activities.Utilities.ChildActivityExtensions">
+            <summary>Provides the standard functionality across activities.</summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Utilities.ChildActivityExtensions.GetFromUserState``1(System.Activities.AsyncCodeActivityContext)">
+            <summary>
+            Get object from context.UserState object. 
+            According to documentation, this is the place to store object for multithreaded access
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Utilities.ChildActivityExtensions.SetToUserState``1(System.Activities.AsyncCodeActivityContext,``0)">
+            <summary>
+            Set context.UserState to desired value
+            </summary>
+            <typeparam name="U"></typeparam>
+            <param name="context"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Utilities.ChildActivityExtensions.GetFromContext``1(System.Activities.ActivityContext,System.String)">
+            <summary>
+            Get object from Context properties
+            </summary>
+            <param name="context"></param>
+            <param name="propertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UiPath.Shared.Activities.ObjectContainer">
+            <summary>
+            A simple container for objects meant to be shared accross the application space.
+            </summary>
+        </member>
+        <member name="F:UiPath.Shared.Activities.ObjectContainer._objectHolder">
+            <summary>
+            Gets the object holder.
+            </summary>
+            <value>
+            The object holder.
+            </value>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:UiPath.Shared.Activities.ObjectContainer"/> class.
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Add``1(``0)">
+            <summary>
+            Stores a reference to a object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="object"></param>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Get``1">
+            <summary>
+            Gets the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Where(System.Func{System.Object,System.Boolean})">
+            <summary>
+            
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Remove``1">
+            <summary>
+            Remove a object from the container
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Contains``1">
+            <summary>
+            Determines whether this instance contains the object.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns>
+              <c>true</c> if this instance contains object; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:UiPath.Shared.Activities.ObjectContainer.Clear">
+            <summary>
+            Clears this instance.
+            </summary>
+        </member>
+    </members>
+</doc>

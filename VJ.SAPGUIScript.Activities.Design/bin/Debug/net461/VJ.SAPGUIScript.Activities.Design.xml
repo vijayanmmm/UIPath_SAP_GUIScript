@@ -1,0 +1,419 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VJ.SAPGUIScript.Activities.Design</name>
+    </assembly>
+    <members>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.Button_ClickDesigner">
+            <summary>
+            Interaction logic for Button_ClickDesigner.xaml
+            </summary>
+            <summary>
+            Button_ClickDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.Button_ClickDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.CheckBox_ClickByIDDesigner">
+            <summary>
+            Interaction logic for CheckBox_ClickByIDDesigner.xaml
+            </summary>
+            <summary>
+            CheckBox_ClickByIDDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.CheckBox_ClickByIDDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.ComboBox_SelectItem_Using_ItemTextcontainsDesigner">
+            <summary>
+            Interaction logic for ComboBox_SelectItem_Using_ItemTextcontainsDesigner.xaml
+            </summary>
+            <summary>
+            ComboBox_SelectItem_Using_ItemTextcontainsDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.ComboBox_SelectItem_Using_ItemTextcontainsDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.ComboBox_SelectItem_Using_KeyDesigner">
+            <summary>
+            Interaction logic for ComboBox_SelectItem_Using_KeyDesigner.xaml
+            </summary>
+            <summary>
+            ComboBox_SelectItem_Using_KeyDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.ComboBox_SelectItem_Using_KeyDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.ContextMenuSelectItemDesigner">
+            <summary>
+            Interaction logic for ContextMenuSelectItemDesigner.xaml
+            </summary>
+            <summary>
+            ContextMenuSelectItemDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.ContextMenuSelectItemDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.Get_StatusBar_TextDesigner">
+            <summary>
+            Interaction logic for Get_StatusBar_TextDesigner.xaml
+            </summary>
+            <summary>
+            Get_StatusBar_TextDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.Get_StatusBar_TextDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.Get_TextBox_ValueDesigner">
+            <summary>
+            Interaction logic for Get_TextBox_ValueDesigner.xaml
+            </summary>
+            <summary>
+            Get_TextBox_ValueDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.Get_TextBox_ValueDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.Get_TextEditBox_ValueDesigner">
+            <summary>
+            Interaction logic for Get_TextEditBox_ValueDesigner.xaml
+            </summary>
+            <summary>
+            Get_TextEditBox_ValueDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.Get_TextEditBox_ValueDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.Grid_GetCellValueDesigner">
+            <summary>
+            Interaction logic for Grid_GetCellValueDesigner.xaml
+            </summary>
+            <summary>
+            Grid_GetCellValueDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.Grid_GetCellValueDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.Grid_SelectCell_AndDoubleClickDesigner">
+            <summary>
+            Interaction logic for Grid_SelectCell_AndDoubleClickDesigner.xaml
+            </summary>
+            <summary>
+            Grid_SelectCell_AndDoubleClickDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.Grid_SelectCell_AndDoubleClickDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.Grid_SelectRow_AndDoubleClickDesigner">
+            <summary>
+            Interaction logic for Grid_SelectRow_AndDoubleClickDesigner.xaml
+            </summary>
+            <summary>
+            Grid_SelectRow_AndDoubleClickDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.Grid_SelectRow_AndDoubleClickDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.Label_GetTextDesigner">
+            <summary>
+            Interaction logic for Label_GetTextDesigner.xaml
+            </summary>
+            <summary>
+            Label_GetTextDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.Label_GetTextDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.LoginDesigner">
+            <summary>
+            Interaction logic for LoginDesigner.xaml
+            </summary>
+            <summary>
+            LoginDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.LoginDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.LoginSSODesigner">
+            <summary>
+            Interaction logic for LoginSSODesigner.xaml
+            </summary>
+            <summary>
+            LoginSSODesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.LoginSSODesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.Menu_SelectionByIDDesigner">
+            <summary>
+            Interaction logic for Menu_SelectionByIDDesigner.xaml
+            </summary>
+            <summary>
+            Menu_SelectionByIDDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.Menu_SelectionByIDDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.RadioBox_ClickDesigner">
+            <summary>
+            Interaction logic for RadioBox_ClickDesigner.xaml
+            </summary>
+            <summary>
+            RadioBox_ClickDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.RadioBox_ClickDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.TableRow_SelectDesigner">
+            <summary>
+            Interaction logic for TableRow_SelectDesigner.xaml
+            </summary>
+            <summary>
+            TableRow_SelectDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.TableRow_SelectDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.Table_GetCellValueDesigner">
+            <summary>
+            Interaction logic for Table_GetCellValueDesigner.xaml
+            </summary>
+            <summary>
+            Table_GetCellValueDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.Table_GetCellValueDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.TCode_InputDesigner">
+            <summary>
+            Interaction logic for TCode_InputDesigner.xaml
+            </summary>
+            <summary>
+            TCode_InputDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.TCode_InputDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.TextBox_InputDesigner">
+            <summary>
+            Interaction logic for TextBox_InputDesigner.xaml
+            </summary>
+            <summary>
+            TextBox_InputDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.TextBox_InputDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.TreeItem_DoubleClickDesigner">
+            <summary>
+            Interaction logic for TreeItem_DoubleClickDesigner.xaml
+            </summary>
+            <summary>
+            TreeItem_DoubleClickDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.TreeItem_DoubleClickDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Designers.TreeView_SelectDesigner">
+            <summary>
+            Interaction logic for TreeView_SelectDesigner.xaml
+            </summary>
+            <summary>
+            TreeView_SelectDesigner
+            </summary>
+        </member>
+        <member name="M:VJ.SAPGUIScript.Activities.Design.Designers.TreeView_SelectDesigner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VJ.SAPGUIScript.Activities.Design.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Design.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Design.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Design.Properties.Resources.Category">
+            <summary>
+              Looks up a localized string similar to VJ.SAPGUIScript.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Design.Properties.Resources.Collection">
+            <summary>
+              Looks up a localized string similar to Collection.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Design.Properties.Resources.Do">
+            <summary>
+              Looks up a localized string similar to Do.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Design.Properties.Resources.DoubleClickToView">
+            <summary>
+              Looks up a localized string similar to Double-click to view.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Design.Properties.Resources.DropActivityHere">
+            <summary>
+              Looks up a localized string similar to Drop Activity Here.
+            </summary>
+        </member>
+        <member name="P:VJ.SAPGUIScript.Activities.Design.Properties.Resources.Editing">
+            <summary>
+              Looks up a localized string similar to Editing.
+            </summary>
+        </member>
+        <member name="T:UiPath.Shared.Activities.Design.Controls.ComboboxControl">
+            <summary>
+            Interaction logic for ComboboxControl.xaml
+            </summary>
+            <summary>
+            ComboboxControl
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Design.Controls.ComboboxControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:UiPath.Shared.Activities.Design.Controls.FilePathControl">
+            <summary>
+            Interaction logic for FilePathControl.xaml
+            </summary>
+            <summary>
+            FilePathControl
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Design.Controls.FilePathControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:UiPath.Shared.Activities.Design.Controls.RestrictiveBodyConnector">
+            <summary>
+            Interaction logic for RestrictiveBodyConnector.xaml
+            </summary>
+            <summary>
+            RestrictiveBodyConnector
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Design.Controls.RestrictiveBodyConnector.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:UiPath.Shared.Activities.Design.Editors.EditorTemplates">
+            <summary>
+            EditorTemplates
+            </summary>
+        </member>
+        <member name="M:UiPath.Shared.Activities.Design.Editors.EditorTemplates.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

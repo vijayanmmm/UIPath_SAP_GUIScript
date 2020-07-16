@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContinueOnError_Description" xml:space="preserve">
+    <value>If set, continue executing the remaining activities even if the current activity has failed.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ContinueOnError_DisplayName" xml:space="preserve">
+    <value>ContinueOnError</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Timeout_Description" xml:space="preserve">
+    <value>Specifies the amount of time (in milliseconds) to wait for the activity to run before an error is thrown. The default value is 60000 (1 minute).</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Timeout_DisplayName" xml:space="preserve">
+    <value>Timeout (milliseconds)</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Timeout_Error" xml:space="preserve">
+    <value>The activity timed out and was canceled.</value>
+    <comment>error message</comment>
+  </data>
+  <data name="Do" xml:space="preserve">
+    <value>Do</value>
+    <comment>generic</comment>
+  </data>
+  <data name="Common_Category" xml:space="preserve">
+    <value>Common</value>
+    <comment>category</comment>
+  </data>
+  <data name="Authentication_Category" xml:space="preserve">
+    <value>Authentication</value>
+    <comment>category</comment>
+  </data>
+  <data name="Input_Category" xml:space="preserve">
+    <value>Input</value>
+    <comment>category</comment>
+  </data>
+  <data name="Output_Category" xml:space="preserve">
+    <value>Output</value>
+    <comment>category</comment>
+  </data>
+  <data name="Options_Category" xml:space="preserve">
+    <value>Options</value>
+    <comment>category</comment>
+  </data>
+  <data name="ValidationScope_Error" xml:space="preserve">
+    <value>Cannot be used outside of a {0}.</value>
+    <comment>error message; {0} is a container activity (e.g. a scope)</comment>
+  </data>
+  <data name="ValidationValue_Error" xml:space="preserve">
+    <value>Please provide a value for {0}.</value>
+    <comment>error message; {0} is the name of a missing property</comment>
+  </data>
+  <data name="ValidationExclusiveProperties_Error" xml:space="preserve">
+    <value>Please provide a value either for {0} or {1}, but not both.</value>
+    <comment>error message; {0} &amp; {1} are mutually exclusive activities</comment>
+  </data>
+  <data name="ValidationOverloadGroup_Error" xml:space="preserve">
+    <value>Please provide values for both {0} and {1}.</value>
+    <comment>error message; {0} &amp; {1} are complementary properties</comment>
+  </data>
+  <data name="Login_DisplayName" xml:space="preserve">
+    <value>Login</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="Login_Description" xml:space="preserve">
+    <value>Login into SAP</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="Login_ServerName_DisplayName" xml:space="preserve">
+    <value>Server</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Login_ServerName_Description" xml:space="preserve">
+    <value>For example: "NRP"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Login_Client_DisplayName" xml:space="preserve">
+    <value>Client</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Login_Client_Description" xml:space="preserve">
+    <value>For example "100"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Login_Username_DisplayName" xml:space="preserve">
+    <value>Username</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Login_Username_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="Login_Password_DisplayName" xml:space="preserve">
+    <value>Password</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Login_Password_Description" xml:space="preserve">
+    <value />
+    <comment>property description</comment>
+  </data>
+  <data name="Login_Language_DisplayName" xml:space="preserve">
+    <value>Language</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Login_Language_Description" xml:space="preserve">
+    <value>For Example: "EN" for english, "ZH" for chines and etc...,</value>
+    <comment>property description</comment>
+  </data>
+  <data name="TCode_Input_DisplayName" xml:space="preserve">
+    <value>TCode_Input</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="TCode_Input_Description" xml:space="preserve">
+    <value>Input TCode into SAP and start Transaction</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="TCode_Input_TCODE_DisplayName" xml:space="preserve">
+    <value>TCODE</value>
+    <comment>property name</comment>
+  </data>
+  <data name="TCode_Input_TCODE_Description" xml:space="preserve">
+    <value>For example: "ZVR019"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="TextBox_Input_DisplayName" xml:space="preserve">
+    <value>TextBox_Input</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="TextBox_Input_Description" xml:space="preserve">
+    <value>input into Textbox</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="TextBox_Input_ControlID_DisplayName" xml:space="preserve">
+    <value>ControlID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="TextBox_Input_ControlID_Description" xml:space="preserve">
+    <value>For example: "wnd[1]/usr/ctxtDY_FILENAME"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="TextBox_Input_Text_DisplayName" xml:space="preserve">
+    <value>Text</value>
+    <comment>property name</comment>
+  </data>
+  <data name="TextBox_Input_Text_Description" xml:space="preserve">
+    <value>Text to be Input, For example "SampleText"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="RadioBox_Click_DisplayName" xml:space="preserve">
+    <value>RadioBox_Click</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="RadioBox_Click_Description" xml:space="preserve">
+    <value>Click a radio box using ID</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="RadioBox_Click_ControlID_DisplayName" xml:space="preserve">
+    <value>ControlID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="RadioBox_Click_ControlID_Description" xml:space="preserve">
+    <value>ID of the RadioBox, for ex:"wnd[1]/usr/subSUBSCREEN_STEPLOOP:SAPLSPO5:0150/sub:SAPLSPO5:0150/radSPOPLI-SELFLAG[1,0]"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Button_Click_DisplayName" xml:space="preserve">
+    <value>Button_Click</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="Button_Click_Description" xml:space="preserve">
+    <value>Click a button using ID</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="Button_Click_ControlID_DisplayName" xml:space="preserve">
+    <value>ControlID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Button_Click_ControlID_Description" xml:space="preserve">
+    <value>ID of the button, for ex:"wnd[1]/tbar[0]/btn[0]"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="CheckBox_ClickByID_DisplayName" xml:space="preserve">
+    <value>CheckBox_ClickByID</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="CheckBox_ClickByID_Description" xml:space="preserve">
+    <value>Click the check box based on value true / false</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="CheckBox_ClickByID_ControlID_DisplayName" xml:space="preserve">
+    <value>ControlID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CheckBox_ClickByID_ControlID_Description" xml:space="preserve">
+    <value>ID of checkbox. ex:wnd[0]/usr/boxpersonas_40/chkpersonas_46</value>
+    <comment>property description</comment>
+  </data>
+  <data name="CheckBox_ClickByID_Tick_DisplayName" xml:space="preserve">
+    <value>Tick</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CheckBox_ClickByID_Tick_Description" xml:space="preserve">
+    <value>If it needs to be ticked then True, If not False</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Menu_SelectionByID_DisplayName" xml:space="preserve">
+    <value>Menu_SelectionByID</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="Menu_SelectionByID_Description" xml:space="preserve">
+    <value>Select the Main Menu based on ID</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="Menu_SelectionByID_MenuID_DisplayName" xml:space="preserve">
+    <value>MenuID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Menu_SelectionByID_MenuID_Description" xml:space="preserve">
+    <value>For Example:"wnd[0]/mbar/menu[4]/menu[8]"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="TableRow_Select_DisplayName" xml:space="preserve">
+    <value>TableRow_Select</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="TableRow_Select_Description" xml:space="preserve">
+    <value>Select a row in a table</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="TableRow_Select_TableID_DisplayName" xml:space="preserve">
+    <value>TableID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="TableRow_Select_TableID_Description" xml:space="preserve">
+    <value>For Ex: "wnd[1]/usr/tblSAPLAQ_INT_FUNCTIONSTCH_FUNCAREAS"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="TableRow_Select_RowNumber_DisplayName" xml:space="preserve">
+    <value>RowNumber</value>
+    <comment>property name</comment>
+  </data>
+  <data name="TableRow_Select_RowNumber_Description" xml:space="preserve">
+    <value>For Example: "6"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="TreeView_Select_DisplayName" xml:space="preserve">
+    <value>TreeView_Select</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="TreeView_Select_Description" xml:space="preserve">
+    <value>Select an item in a Tree</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="TreeView_Select_TreeID_DisplayName" xml:space="preserve">
+    <value>TreeID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="TreeView_Select_TreeID_Description" xml:space="preserve">
+    <value>For Ex: "wnd[0]/shellcont/shell/shellcont[0]/shell"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="TreeView_Select_TreeItemKey_DisplayName" xml:space="preserve">
+    <value>TreeItemKey</value>
+    <comment>property name</comment>
+  </data>
+  <data name="TreeView_Select_TreeItemKey_Description" xml:space="preserve">
+    <value>For Ex: "000006"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ContextMenuSelectItem_DisplayName" xml:space="preserve">
+    <value>ContextMenuSelectItem</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ContextMenuSelectItem_Description" xml:space="preserve">
+    <value>Right Click the grid and choose the specified context menu item</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="ContextMenuSelectItem_GridID_DisplayName" xml:space="preserve">
+    <value>GridID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ContextMenuSelectItem_GridID_Description" xml:space="preserve">
+    <value>For Ex:"wnd[0]/usr/cntlGRID1/shellcont/shell"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ContextMenuSelectItem_ContextMenuItem_DisplayName" xml:space="preserve">
+    <value>ContextMenuItem</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ContextMenuSelectItem_ContextMenuItem_Description" xml:space="preserve">
+    <value>For Ex: "Spreadsheet..."</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Grid_SelectRow_AndDoubleClick_DisplayName" xml:space="preserve">
+    <value>Grid_SelectRow_AndDoubleClick</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="Grid_SelectRow_AndDoubleClick_Description" xml:space="preserve">
+    <value>Double click a row in a Grid</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="Grid_SelectRow_AndDoubleClick_GridID_DisplayName" xml:space="preserve">
+    <value>GridID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Grid_SelectRow_AndDoubleClick_GridID_Description" xml:space="preserve">
+    <value>For Ex:"wnd[0]/usr/cntlGRID1/shellcont/shell"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Grid_SelectRow_AndDoubleClick_RowIndex_DisplayName" xml:space="preserve">
+    <value>RowIndex</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Grid_SelectRow_AndDoubleClick_RowIndex_Description" xml:space="preserve">
+    <value>For Ex:"6"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Grid_SelectCell_AndDoubleClick_DisplayName" xml:space="preserve">
+    <value>Grid_SelectCell_AndDoubleClick</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="Grid_SelectCell_AndDoubleClick_Description" xml:space="preserve">
+    <value>Double click a cell in a specified row of a Grid.</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="Grid_SelectCell_AndDoubleClick_GridID_DisplayName" xml:space="preserve">
+    <value>GridID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Grid_SelectCell_AndDoubleClick_GridID_Description" xml:space="preserve">
+    <value>For Ex:"wnd[0]/usr/cntlGRID1/shellcont/shell"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Grid_SelectCell_AndDoubleClick_RowIndex_DisplayName" xml:space="preserve">
+    <value>RowIndex</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Grid_SelectCell_AndDoubleClick_RowIndex_Description" xml:space="preserve">
+    <value>For Ex:"6"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Grid_SelectCell_AndDoubleClick_ColumnID_DisplayName" xml:space="preserve">
+    <value>ColumnID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Grid_SelectCell_AndDoubleClick_ColumnID_Description" xml:space="preserve">
+    <value>For Ex:"EBELN"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Label_GetText_DisplayName" xml:space="preserve">
+    <value>Label_GetText</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="Label_GetText_Description" xml:space="preserve">
+    <value>Get text of a label</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="Label_GetText_MainWindowName_DisplayName" xml:space="preserve">
+    <value>MainWindowName</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Label_GetText_MainWindowName_Description" xml:space="preserve">
+    <value>For Ex: "Accouting Report"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Label_GetText_DialogBox1_DisplayName" xml:space="preserve">
+    <value>DialogBox1</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Label_GetText_DialogBox1_Description" xml:space="preserve">
+    <value>For Ex:"Choose an Account", if no dialogbox then ""</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Label_GetText_DialogBox2_DisplayName" xml:space="preserve">
+    <value>DialogBox2</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Label_GetText_DialogBox2_Description" xml:space="preserve">
+    <value>For Ex:"Choose an Account", if no dialogbox then ""</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Label_GetText_LabelID_DisplayName" xml:space="preserve">
+    <value>LabelID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Label_GetText_LabelID_Description" xml:space="preserve">
+    <value>For Ex:"wnd[0]/usr/lbl[64,3]"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_Key_DisplayName" xml:space="preserve">
+    <value>ComboBox_SelectItem_Using_Key</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_Key_Description" xml:space="preserve">
+    <value>Combo box select item using Key</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_Key_ComboBoxID_DisplayName" xml:space="preserve">
+    <value>ComboBoxID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_Key_ComboBoxID_Description" xml:space="preserve">
+    <value>For Ex: "wnd[0]/usr/subSUB1:SAPLMEGUI:6000/cmbDYN_6000-LIST"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_Key_ItemKey_DisplayName" xml:space="preserve">
+    <value>ItemKey</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_Key_ItemKey_Description" xml:space="preserve">
+    <value>For Ex: "   3", Make sure included blank as well if exists</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_ItemTextcontains_DisplayName" xml:space="preserve">
+    <value>ComboBox_SelectItem_Using_ItemTextcontains</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_ItemTextcontains_Description" xml:space="preserve">
+    <value>Combo Box Select item using Item Text contains</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_ItemTextcontains_CombMainWindowNameoBoxID_DisplayName" xml:space="preserve">
+    <value>CombMainWindowNameoBoxID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_ItemTextcontains_CombMainWindowNameoBoxID_Description" xml:space="preserve">
+    <value>For Ex: "Accounting Report"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_ItemTextcontains_ComboBox_AutomationID_DisplayName" xml:space="preserve">
+    <value>ComboBox_AutomationID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_ItemTextcontains_ComboBox_AutomationID_Description" xml:space="preserve">
+    <value>For Example: "115552", Use Spy tool to find/UIpath UIExplorer</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_ItemTextcontains_SelectItemText_DisplayName" xml:space="preserve">
+    <value>SelectItemText</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_ItemTextcontains_SelectItemText_Description" xml:space="preserve">
+    <value>ComboBox item text, which needs to be selected, For Ex: "Email"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_ItemTextcontains_ComboBoxID_DisplayName" xml:space="preserve">
+    <value>ComboBoxID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_ItemTextcontains_ComboBoxID_Description" xml:space="preserve">
+    <value>For Ex:"wnd[0]/usr/subSUB1:SAPLMEGUI:6000/cmbDYN_6000-LIST"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_ItemTextcontains_ItemText_DisplayName" xml:space="preserve">
+    <value>ItemText</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ComboBox_SelectItem_Using_ItemTextcontains_ItemText_Description" xml:space="preserve">
+    <value>For Ex: "Email"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Get_TextBox_Value_DisplayName" xml:space="preserve">
+    <value>Get_TextBox_Value</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="Get_TextBox_Value_Description" xml:space="preserve">
+    <value>Get Textbox value</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="Get_TextBox_Value_TextboxID_DisplayName" xml:space="preserve">
+    <value>TextboxID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Get_TextBox_Value_TextboxID_Description" xml:space="preserve">
+    <value>For Example:wnd[0].grdviewSA.curr[0].txtYEAR</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Grid_GetCellValue_DisplayName" xml:space="preserve">
+    <value>Grid_GetCellValue</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="Grid_GetCellValue_Description" xml:space="preserve">
+    <value>get grid cell value</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="Grid_GetCellValue_GridID_DisplayName" xml:space="preserve">
+    <value>GridID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Grid_GetCellValue_GridID_Description" xml:space="preserve">
+    <value>For ex:"wnd[0]/usr/cntlGRID1/shellcont/shell"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Grid_GetCellValue_RowIndex_DisplayName" xml:space="preserve">
+    <value>RowIndex</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Grid_GetCellValue_RowIndex_Description" xml:space="preserve">
+    <value>For ex:5, Note: Rowindex starts from 0</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Grid_GetCellValue_ColumnID_DisplayName" xml:space="preserve">
+    <value>ColumnID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Grid_GetCellValue_ColumnID_Description" xml:space="preserve">
+    <value>For ex:KLKJK</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Table_GetCellValue_DisplayName" xml:space="preserve">
+    <value>Table_GetCellValue</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="Table_GetCellValue_Description" xml:space="preserve">
+    <value>Get table cell value</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="Table_GetCellValue_TableID_DisplayName" xml:space="preserve">
+    <value>TableID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Table_GetCellValue_TableID_Description" xml:space="preserve">
+    <value>For ex:"wnd[0]/usr/tblSAPL"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Table_GetCellValue_RowIndex_DisplayName" xml:space="preserve">
+    <value>RowIndex</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Table_GetCellValue_RowIndex_Description" xml:space="preserve">
+    <value>For ex:5, Note: Index should start from 0</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Table_GetCellValue_ColumnIndex_DisplayName" xml:space="preserve">
+    <value>ColumnIndex</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Table_GetCellValue_ColumnIndex_Description" xml:space="preserve">
+    <value>For ex:5, Note: Index should start from 0</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Grid_GetCellValue_CellValue_DisplayName" xml:space="preserve">
+    <value>CellValue</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Grid_GetCellValue_CellValue_Description" xml:space="preserve">
+    <value>value of the specified cell</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Get_TextBox_Value_ControlID_DisplayName" xml:space="preserve">
+    <value>ControlID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Get_TextBox_Value_ControlID_Description" xml:space="preserve">
+    <value>For ex:"wnd[0]/usr/ctxtS_MATNR-LOW"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Get_TextBox_Value_TextBoxValue_DisplayName" xml:space="preserve">
+    <value>TextBoxValue</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Get_TextBox_Value_TextBoxValue_Description" xml:space="preserve">
+    <value>Value of the Textbox</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Table_GetCellValue_CellValue_DisplayName" xml:space="preserve">
+    <value>CellValue</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Table_GetCellValue_CellValue_Description" xml:space="preserve">
+    <value>Text/Value of the Table Cell.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Get_TextEditBox_Value_DisplayName" xml:space="preserve">
+    <value>Get_TextEditBox_Value</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="Get_TextEditBox_Value_Description" xml:space="preserve">
+    <value>Get Text Edit box value, its similar as TextBox/InputBox,, Mostly used textbox within table/grid.</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="Get_TextEditBox_Value_ControlID_DisplayName" xml:space="preserve">
+    <value>ControlID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Get_TextEditBox_Value_ControlID_Description" xml:space="preserve">
+    <value>ID of the TextBox, For Ex. "wnd[0]/txtINGKIL"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Get_TextEditBox_Value_Text_DisplayName" xml:space="preserve">
+    <value>Text</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Get_TextEditBox_Value_Text_Description" xml:space="preserve">
+    <value>Text of the TextEditBox/InputBox</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Get_StatusBar_Text_DisplayName" xml:space="preserve">
+    <value>Get_StatusBar_Text</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="Get_StatusBar_Text_Description" xml:space="preserve">
+    <value>Get Status bar text in the sap window bottom</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="Get_StatusBar_Text_StatusText_DisplayName" xml:space="preserve">
+    <value>StatusText</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Get_StatusBar_Text_StatusText_Description" xml:space="preserve">
+    <value>Text of the status bar.</value>
+    <comment>property description</comment>
+  </data>
+  <data name="TreeItem_DoubleClick_DisplayName" xml:space="preserve">
+    <value>TreeItem_DoubleClick</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="TreeItem_DoubleClick_Description" xml:space="preserve">
+    <value>Double click the Tree item/Node</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="TreeItem_DoubleClick_ControlID_DisplayName" xml:space="preserve">
+    <value>ControlID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="TreeItem_DoubleClick_ControlID_Description" xml:space="preserve">
+    <value>Tree control ID, for example:</value>
+    <comment>property description</comment>
+  </data>
+  <data name="TreeItem_DoubleClick_ItemKey_DisplayName" xml:space="preserve">
+    <value>ItemKey</value>
+    <comment>property name</comment>
+  </data>
+  <data name="TreeItem_DoubleClick_ItemKey_Description" xml:space="preserve">
+    <value>Key of the Tree Item/Node</value>
+    <comment>property description</comment>
+  </data>
+  <data name="LoginSSO_DisplayName" xml:space="preserve">
+    <value>LoginSSO</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="LoginSSO_Description" xml:space="preserve">
+    <value>Login using SSO Mode</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="LoginSSO_ServerName_DisplayName" xml:space="preserve">
+    <value>ServerName</value>
+    <comment>property name</comment>
+  </data>
+  <data name="LoginSSO_ServerName_Description" xml:space="preserve">
+    <value>Name of the server, usually it is listed in the SAP Login Window for example: PH7 PRD</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetStatusText_DisplayName" xml:space="preserve">
+    <value>GetStatusText</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetStatusText_Description" xml:space="preserve">
+    <value>Get SAP Status Text</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetStatusText_StatusText_DisplayName" xml:space="preserve">
+    <value>StatusText</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetStatusText_StatusText_Description" xml:space="preserve">
+    <value>Text of SAP Status bar </value>
+    <comment>property description</comment>
+  </data>
+  <data name="Get_StatusBar_Text_MessageType_DisplayName" xml:space="preserve">
+    <value>MessageType</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Get_StatusBar_Text_MessageType_Description" xml:space="preserve">
+    <value>Type of the Status Bar Text (E/S/I....)</value>
+    <comment>property description</comment>
+  </data>
+  <data name="Get_StatusBar_Text_StatusTextValue_DisplayName" xml:space="preserve">
+    <value>StatusTextValue</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Get_StatusBar_Text_StatusTextValue_Description" xml:space="preserve">
+    <value>Status Text</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetLabelText_DisplayName" xml:space="preserve">
+    <value>GetLabelText</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetLabelText_Description" xml:space="preserve">
+    <value>Get Text of the Label</value>
+    <comment>activity description</comment>
+  </data>
+  <data name="GetLabelText_ControlID_DisplayName" xml:space="preserve">
+    <value>ControlID</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetLabelText_ControlID_Description" xml:space="preserve">
+    <value>ID of the Label For ex: "wnd[0]\LBLTSKK"</value>
+    <comment>property description</comment>
+  </data>
+  <data name="GetLabelText_LabelText_DisplayName" xml:space="preserve">
+    <value>LabelText</value>
+    <comment>property name</comment>
+  </data>
+  <data name="GetLabelText_LabelText_Description" xml:space="preserve">
+    <value>Output Label Text</value>
+    <comment>property description</comment>
+  </data>
+</root>

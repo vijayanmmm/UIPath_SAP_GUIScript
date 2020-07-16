@@ -1,0 +1,199 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net461</TargetFrameworks>
+		<RootNamespace>VJ.SAPGUIScript.Activities.Design</RootNamespace>
+		<AssemblyName>VJ.SAPGUIScript.Activities.Design</AssemblyName>
+    <PackageId>VJ.SAPGUIScript.Activities</PackageId>
+  </PropertyGroup>
+  <!-- Package Metadata -->
+  <PropertyGroup>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <Description>Release notes0.1.3:Added New UiPath Activities LogonSSO, TreeItem_DoubleClick, Get Status Text. Changes: Login (Removed LoginWindowName Input-will be found automatically), Fixed bug for GetLabelText, Get_textBox_Value. Main Purpose: Automate SAP GUI Client using GUI Script, Ui Path Activities for many actions from click to Table row selct and Click </Description>
+    <Authors>Vijayan Venkateshan</Authors>
+    <Company>Individual</Company>
+    <Copyright>@ 2020 Company</Copyright>
+    <PackageTags>UiPath Activit𝗒, SAP GUIScript, GUI Script, UIPath SAP, UIPath SAP GUIScript, SAP Automation</PackageTags>
+    <releaseNotes>Added New UiPath Activities LogonSSO, TreeItem_DoubleClick, Get Status Text. Changes: Login (Removed LoginWindowName Input-will be found automatically), Fixed bug for GetLabelText, Get_textBox_Value </releaseNotes>
+    <PackageProjectUrl></PackageProjectUrl>
+    <!--<PackageIconUrl>https://raw.githubusercontent.com/NuGet/Samples/master/PackageIconNuspecExample/icon.png</PackageIconUrl>-->
+    <!--<PackageIcon>packageIcon.png</PackageIcon>--> <!--PackageIcon not yet supported in UiPath Studio-->
+    <AssemblyVersion>1.0.0.5</AssemblyVersion>
+    <FileVersion>1.0.0.3</FileVersion>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);CopyProjectReferencesToPackage</TargetsForTfmSpecificBuildOutput>
+  </PropertyGroup>
+  <!-- Package Versions -->
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <PackageVersion>0.1.3.$([System.DateTime]::UtcNow.ToString(MMddHHmmss))</PackageVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <PackageVersion>0.1.3</PackageVersion>
+    </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Designers\Button_ClickDesigner.xaml" />
+    <None Remove="Designers\CheckBox_ClickByIDDesigner.xaml" />
+    <None Remove="Designers\ComboBox_SelectItem_Using_ItemTextcontainsDesigner.xaml" />
+    <None Remove="Designers\ComboBox_SelectItem_Using_KeyDesigner.xaml" />
+    <None Remove="Designers\ContextMenuSelectItemDesigner.xaml" />
+    <None Remove="Designers\GetLabelTextDesigner.xaml" />
+    <None Remove="Designers\Get_StatusBar_TextDesigner.xaml" />
+    <None Remove="Designers\Get_TextBox_ValueDesigner.xaml" />
+    <None Remove="Designers\Get_TextEditBox_ValueDesigner.xaml" />
+    <None Remove="Designers\Grid_GetCellValueDesigner.xaml" />
+    <None Remove="Designers\Grid_SelectCell_AndDoubleClickDesigner.xaml" />
+    <None Remove="Designers\Grid_SelectRow_AndDoubleClickDesigner.xaml" />
+    <None Remove="Designers\LoginDesigner.xaml" />
+    <None Remove="Designers\LoginSSODesigner.xaml" />
+    <None Remove="Designers\Menu_SelectionByIDDesigner.xaml" />
+    <None Remove="Designers\RadioBox_ClickDesigner.xaml" />
+    <None Remove="Designers\TableRow_SelectDesigner.xaml" />
+    <None Remove="Designers\Table_GetCellValueDesigner.xaml" />
+    <None Remove="Designers\TCode_InputDesigner.xaml" />
+    <None Remove="Designers\TextBox_InputDesigner.xaml" />
+    <None Remove="Designers\TreeItem_DoubleClickDesigner.xaml" />
+    <None Remove="Designers\TreeView_SelectDesigner.xaml" />
+  </ItemGroup>
+  <!-- Package Icon -->
+  <ItemGroup>
+    <None Include="packageIcon.png" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+  <Target Name="CopyProjectReferencesToPackage" DependsOnTargets="BuildOnlySettings;ResolveReferences">
+    <ItemGroup>
+      <!--Filter out unnecessary files-->
+      <_ReferenceCopyLocalPaths Include="@(ReferenceCopyLocalPaths-&gt;WithMetadataValue('ReferenceSourceTarget', 'ProjectReference')-&gt;WithMetadataValue('PrivateAssets', 'All'))" />
+    </ItemGroup>
+
+    <!--Print batches for debug purposes-->
+    <Message Text="Batch for .nupkg: ReferenceCopyLocalPaths = @(_ReferenceCopyLocalPaths), ReferenceCopyLocalPaths.DestinationSubDirectory = %(_ReferenceCopyLocalPaths.DestinationSubDirectory) Filename = %(_ReferenceCopyLocalPaths.Filename) Extension = %(_ReferenceCopyLocalPaths.Extension)" Importance="High" Condition="'@(_ReferenceCopyLocalPaths)' != ''" />
+
+    <ItemGroup>
+      <!--Add file to package with consideration of sub folder. If empty, the root folder is chosen.-->
+      <BuildOutputInPackage Include="@(_ReferenceCopyLocalPaths)" TargetPath="%(_ReferenceCopyLocalPaths.DestinationSubDirectory)" />
+    </ItemGroup>
+  </Target>
+  <PropertyGroup>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <DocumentationFile>bin\$(Configuration)\VJ.SAPGUIScript.Activities.Design.xml</DocumentationFile>
+  </PropertyGroup>
+	<ItemGroup>
+		<Reference Include="System" />
+    <Reference Include="System.Core" />
+		<Reference Include="System.Xml.Linq" />
+		<Reference Include="System.Data.DataSetExtensions" />
+		<Reference Include="Microsoft.CSharp" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+		<Reference Include="System.Data" />
+		<Reference Include="System.Xml" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="System.Activities.Core.Presentation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="..\..\Shared\Themes\Generic.xaml">
+      <Link>Themes\Generic.xaml</Link>
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Designers\Button_ClickDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Designers\CheckBox_ClickByIDDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Designers\ComboBox_SelectItem_Using_ItemTextcontainsDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Designers\ComboBox_SelectItem_Using_KeyDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Designers\ContextMenuSelectItemDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Designers\GetLabelTextDesigner.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
+    <Page Include="Designers\Get_StatusBar_TextDesigner.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
+    <Page Include="Designers\Get_TextBox_ValueDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Designers\Get_TextEditBox_ValueDesigner.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
+    <Page Include="Designers\Grid_GetCellValueDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Designers\Grid_SelectCell_AndDoubleClickDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Designers\Grid_SelectRow_AndDoubleClickDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Designers\LoginDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Designers\LoginSSODesigner.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
+    <Page Include="Designers\Menu_SelectionByIDDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Designers\RadioBox_ClickDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Designers\TableRow_SelectDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Designers\Table_GetCellValueDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Designers\TCode_InputDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Designers\TextBox_InputDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Designers\TreeItem_DoubleClickDesigner.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
+    <Page Include="Designers\TreeView_SelectDesigner.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Themes\Icons.xaml">
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VJ.SAPGUIScript.Activities\VJ.SAPGUIScript.Activities.csproj" PrivateAssets="All" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.*.resx">
+      <DependentUpon>Resources.resx</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="..\..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems" Label="Shared" />
+</Project>
