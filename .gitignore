@@ -1,0 +1,11 @@
+.vs/
+VJ.SAPGUIScript.Activities.Design/obj/
+VJ.SAPGUIScript.Activities.Design/bin/
+VJ.SAPGUIScript.Activities/obj/
+VJ.SAPGUIScript.Activities/bin/
+VJ.SAPGUIScript/obj/
+VJ.SAPGUIScript/bin/
+*.exe
+*.pdb
+*.manifest
+*.cache
